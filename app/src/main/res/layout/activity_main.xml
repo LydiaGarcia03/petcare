@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:layout_marginTop="20dp"
+              android:padding="24dp">
+
+    <Button
+            android:id="@+id/btnPets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gerenciar Pets"
+            android:layout_marginBottom="16dp" />
+
+    <Button
+            android:id="@+id/btnMedicines"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medicamentos"
+            android:layout_marginBottom="16dp" />
+
+    <Button
+            android:id="@+id/btnCalendar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calendário de Eventos" />
+
+    <Button
+            android:id="@+id/btnProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Perfil"
+            android:layout_marginTop="16dp" />
+
+</LinearLayout>

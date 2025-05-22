@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:layout_marginTop="20dp"
+              android:padding="16dp">
+
+    <EditText
+            android:id="@+id/edtMedicineName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome do Medicamento"
+            android:inputType="text" />
+
+    <TextView
+            android:id="@+id/txtTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Horário"
+            android:padding="12dp"
+            android:text="Clique para selecionar horário"
+            android:background="#DDDDDD"
+            android:layout_marginTop="12dp"
+            android:textSize="16sp" />
+
+    <Spinner
+            android:id="@+id/spinnerPet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp" />
+
+    <Button
+            android:id="@+id/btnSaveMedicine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salvar Medicamento"
+            android:layout_marginTop="16dp" />
+</LinearLayout>
